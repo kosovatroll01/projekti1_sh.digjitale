@@ -1,0 +1,174 @@
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+}
+
+header .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+header .nav-link {
+  color: #fff;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+header .nav-link:hover {
+  color: #ddd;
+}
+
+/* About Us Section */
+.about-us-section {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.about-us-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-us-section p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-us-section img {
+  border-radius: 8px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/* Team Section */
+.team-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.team-member {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-member h4 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  color: #333;
+}
+
+.team-member .role {
+  font-size: 1rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.team-member .bio {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.contact-section h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-section ul {
+  padding-left: 0;
+}
+
+.contact-section ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.contact-section ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-us-section h2,
+  .team-section h2 {
+    font-size: 2rem;
+  }
+
+  .team-member {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-section h4 {
+    font-size: 1.25rem;
+  }
+}
